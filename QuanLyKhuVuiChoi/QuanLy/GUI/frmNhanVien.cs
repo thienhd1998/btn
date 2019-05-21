@@ -61,6 +61,7 @@ namespace QuanLy.GUI
             // Hom nay ngay 21/5
 
         //Hom nay toi buon 1 minh tren pho dong
+        // Co 1 ddieu uoc
             else if (MaKhu == "" && MaTro == "")
             {
                 if (KiemTraDAO.Istance.CheckMaPB(MaPB))
