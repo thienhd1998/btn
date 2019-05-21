@@ -59,6 +59,8 @@ namespace QuanLy.GUI
                     MessageBox.Show("Mã trò chơi không tồn tại", "Thông báo");
             }
             // Hom nay ngay 21/5
+
+        //Hom nay toi buon 1 minh tren pho dong
             else if (MaKhu == "" && MaTro == "")
             {
                 if (KiemTraDAO.Istance.CheckMaPB(MaPB))
